@@ -4,6 +4,7 @@
 }
 
 @using System.Security.Claims
+@model SonOfCod.Models.Subscriber
 
 <h1>Newsletter</h1>
 
@@ -14,4 +15,21 @@
         {
             <input type="submit" class="btn btn-default" value="Log out" />
         }
+}
+else
+{
+
+    @using (Html.BeginForm())
+    {
+        @Html.LabelFor(model => model.FirstName)
+        @Html.EditorFor(model => model.FirstName)
+
+        @Html.LabelFor(model => model.LastName)
+        @Html.EditorFor(model => model.LastName)
+
+        @Html.LabelFor(model => model.CompanyName)
+        @Html.EditorFor(model => model.CompanyName)
+
+        <input type="submit" value="Create" />
+    }
 }
