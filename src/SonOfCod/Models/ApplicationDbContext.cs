@@ -14,12 +14,21 @@ namespace SonOfCod.Models
 
         }
 
+        public ApplicationDbContext()
+        {
+
+        }
+
+        public DbSet<Subscriber> Subscribers { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        {
+            options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=SonOfCod;integrated security=True");
+        }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
         }
-        //Migrates Subscriber Model to db
-        public DbSet<Subscriber> Subscribers { get; set; }
-
     }
 }

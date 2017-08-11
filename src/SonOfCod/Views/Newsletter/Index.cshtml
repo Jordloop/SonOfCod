@@ -18,19 +18,6 @@
 }
 else
 {
-    <h2>Sign up for our news letter</h2>
-
-    @using (Html.BeginForm())
-    {
-        @Html.LabelFor(model => model.FirstName)
-        @Html.EditorFor(model => model.FirstName)
-
-        @Html.LabelFor(model => model.LastName)
-        @Html.EditorFor(model => model.LastName)
-
-        @Html.LabelFor(model => model.CompanyName)
-        @Html.EditorFor(model => model.CompanyName)
-
-        <input type="submit" value="Create" />
-    }
+    <h2>Interested in our news letters?</h2>
 }
+<p>@Html.ActionLink("Sign up!", "Subscribe")</p>
