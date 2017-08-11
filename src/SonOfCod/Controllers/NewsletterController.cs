@@ -21,14 +21,8 @@ namespace SonOfCod.Controllers
         {
             return View();
         }
-        //Create Subscriber
-        public IActionResult Create()
-        {
-            return View();
-        }
-
         [HttpPost]
-        public IActionResult Create(Subscriber subscriber)
+        public IActionResult Subscribe(Subscriber subscriber)
         {
             db.Subscribers.Add(subscriber);
             db.SaveChanges();
