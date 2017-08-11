@@ -177,6 +177,8 @@ namespace SonOfCod.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("CompanyName");
+
                     b.Property<string>("FirstName");
 
                     b.Property<string>("LastName");
