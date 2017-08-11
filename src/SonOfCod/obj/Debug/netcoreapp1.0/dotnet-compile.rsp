@@ -206,9 +206,8 @@ C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Startup.cs
 C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Controllers\AdminController.cs
 C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Controllers\MarketingController.cs
 C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Controllers\NewsletterController.cs
-C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Controllers\SubscriberController.cs
-C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Migrations\20170811180747_Initial.cs
-C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Migrations\20170811180747_Initial.Designer.cs
+C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Migrations\20170811222631_Initial.cs
+C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Migrations\20170811222631_Initial.Designer.cs
 C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Migrations\ApplicationDbContextModelSnapshot.cs
 C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Models\ApplicationAdmin.cs
 C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\Models\ApplicationDbContext.cs

@@ -179,6 +179,8 @@ namespace SonOfCod.Migrations
 
                     b.Property<string>("CompanyName");
 
+                    b.Property<string>("Email");
+
                     b.Property<string>("FirstName");
 
                     b.Property<string>("LastName");

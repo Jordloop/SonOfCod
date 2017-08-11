@@ -8,7 +8,7 @@ using SonOfCod.Models;
 namespace SonOfCod.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20170811180747_Initial")]
+    [Migration("20170811222631_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -179,6 +179,8 @@ namespace SonOfCod.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("CompanyName");
+
+                    b.Property<string>("Email");
 
                     b.Property<string>("FirstName");
 
