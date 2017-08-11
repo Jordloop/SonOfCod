@@ -10,6 +10,7 @@
 
 @if (User.Identity.IsAuthenticated)
 {
+    <p>@Html.ActionLink("View Subscribers", "ViewSubscribers")</p>
     <p>Hello @User.Identity.Name!</p>
         @using (Html.BeginForm("LogOff", "Admin"))
         {
@@ -19,5 +20,6 @@
 else
 {
     <h2>Interested in our news letters?</h2>
+    <p>@Html.ActionLink("Sign up!", "Subscribe")</p>
 }
-<p>@Html.ActionLink("Sign up!", "Subscribe")</p>
+

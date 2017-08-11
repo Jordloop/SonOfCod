@@ -28,5 +28,10 @@ namespace SonOfCod.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+        //ViewSubscribers
+        public IActionResult ViewSubscribers()
+        {
+            return View(db.Subscribers.ToList());
+        }
     }
 }

@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<SonOfCod.Models.Subscriber>
+<ul>
+    @foreach (var Subscriber in Model)
+    {
+        <li>
+            <p>@Html.DisplayNameFor(modelItem => Subscriber.FirstName): @Html.DisplayFor(modelItem => Subscriber.FirstName)</p>
+            <p>@Html.DisplayNameFor(modelItem => Subscriber.LastName): @Html.DisplayFor(modelItem => Subscriber.LastName)</p>
+            <p>@Html.DisplayNameFor(modelItem => Subscriber.CompanyName): @Html.DisplayFor(modelItem => Subscriber.CompanyName)</p>
+        </li>
+    }
+</ul>
