@@ -3,4 +3,11 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@using System.Security.Claims
+
 <h1>Newsletter</h1>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <h4>Only Admin can see</h4>
+}
