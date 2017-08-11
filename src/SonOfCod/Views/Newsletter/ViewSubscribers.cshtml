@@ -2,14 +2,24 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@using System.Security.Claims
 @model IEnumerable<SonOfCod.Models.Subscriber>
-<ul>
-    @foreach (var Subscriber in Model)
-    {
-        <li>
-            <p>@Html.DisplayNameFor(modelItem => Subscriber.FirstName): @Html.DisplayFor(modelItem => Subscriber.FirstName)</p>
-            <p>@Html.DisplayNameFor(modelItem => Subscriber.LastName): @Html.DisplayFor(modelItem => Subscriber.LastName)</p>
-            <p>@Html.DisplayNameFor(modelItem => Subscriber.CompanyName): @Html.DisplayFor(modelItem => Subscriber.CompanyName)</p>
-        </li>
-    }
-</ul>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <ul>
+        @foreach (var Subscriber in Model)
+        {
+            <li>
+                <p>@Html.DisplayNameFor(modelItem => Subscriber.FirstName): @Html.DisplayFor(modelItem => Subscriber.FirstName)</p>
+                <p>@Html.DisplayNameFor(modelItem => Subscriber.LastName): @Html.DisplayFor(modelItem => Subscriber.LastName)</p>
+                <p>@Html.DisplayNameFor(modelItem => Subscriber.CompanyName): @Html.DisplayFor(modelItem => Subscriber.CompanyName)</p>
+                <p>@Html.DisplayNameFor(modelItem => Subscriber.Email): @Html.DisplayFor(modelItem => Subscriber.Email)</p>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <h1>Admin Only</h1>
+}

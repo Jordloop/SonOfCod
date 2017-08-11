@@ -196,6 +196,6 @@
 --reference:C:\Users\jordl\.nuget\packages\xunit.runner.reporters\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.reporters.dotnet.dll
 --reference:C:\Users\jordl\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll
 --reference:C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\bin\Debug\netcoreapp1.0\SonOfCod.dll
-C:\Users\jordl\Desktop\SonOfCod\SonOfCod.Tests\Class1.cs
 C:\Users\jordl\Desktop\SonOfCod\SonOfCod.Tests\SubscriberTest.cs
+C:\Users\jordl\Desktop\SonOfCod\SonOfCod.Tests\ControllerTest\MarketingControllerTest.cs
 C:\Users\jordl\Desktop\SonOfCod\SonOfCod.Tests\Properties\AssemblyInfo.cs
