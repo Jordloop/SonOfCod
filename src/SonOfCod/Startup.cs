@@ -38,7 +38,7 @@ namespace SonOfCod
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Account}/{action=Index}/{id?}");
+                    template: "{controller=AdminPortal}/{action=Index}/{id?}");
             });
             app.Run(async (context) =>
             {
