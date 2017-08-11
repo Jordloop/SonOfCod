@@ -196,4 +196,5 @@
 -r:"C:\Users\jordl\Desktop\SonOfCod\src\SonOfCod\bin\Debug\netcoreapp1.0\SonOfCod.dll"
 "C:\Users\jordl\Desktop\SonOfCod\SonOfCod.Tests\SubscriberTest.cs"
 "C:\Users\jordl\Desktop\SonOfCod\SonOfCod.Tests\ControllerTest\MarketingControllerTest.cs"
+"C:\Users\jordl\Desktop\SonOfCod\SonOfCod.Tests\ControllerTest\NewsletterControllerTest.cs"
 "C:\Users\jordl\Desktop\SonOfCod\SonOfCod.Tests\Properties\AssemblyInfo.cs"
