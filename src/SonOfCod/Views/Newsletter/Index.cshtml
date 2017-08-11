@@ -9,5 +9,9 @@
 
 @if (User.Identity.IsAuthenticated)
 {
-    <h4>Only Admin can see</h4>
+    <p>Hello @User.Identity.Name!</p>
+        @using (Html.BeginForm("LogOff", "Admin"))
+        {
+            <input type="submit" class="btn btn-default" value="Log out" />
+        }
 }
