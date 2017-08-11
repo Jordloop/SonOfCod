@@ -26,7 +26,7 @@ namespace SonOfCod.Controllers
         {
             db.Subscribers.Add(subscriber);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Marketing");
         }
         //ViewSubscribers
         public IActionResult ViewSubscribers()
