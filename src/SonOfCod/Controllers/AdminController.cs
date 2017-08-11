@@ -68,7 +68,7 @@ namespace SonOfCod.Controllers
         public async Task<IActionResult> LogOff()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Marketing");
         }
     }
 }
