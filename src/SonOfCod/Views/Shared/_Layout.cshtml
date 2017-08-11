@@ -7,7 +7,14 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
+    <div class="flex-nav">
+        <div class="flex-nav-option"></div>
+        <div class="flex-nav-option"></div>
+        <div class="flex-nav-option">| @Html.ActionLink("Newsletter", "Index", "Newsletter") |</div>
+        <div class="flex-nav-option">| @Html.ActionLink("Admin Portal", "Login", "Admin") |</div>
+        <div class="flex-nav-option">| @Html.ActionLink("Home", "Index", "Marketing") | </div>
+    </div>
+    <div class="flex-container">
         @RenderBody()
     </div>
 </body>
