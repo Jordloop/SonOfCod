@@ -5,7 +5,7 @@
 ## Description
 
 This is a mock web application themed after a seafood company. Functionality includes: The ability to sign  up for a newsletter. The ability to sign into the site as an administrator. As an administrator you will be able to view a list of all users who have subscribed to the newsletter.<br>
-The project's design is based after this site: https://www.pacseafood.com/
+The project's design is roughly based after this site: https://www.pacseafood.com/
 
 ## Setup/Installation Requirements
 
