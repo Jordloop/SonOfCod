@@ -11,17 +11,16 @@ html {
 .flex-nav {
     background-color: white;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: 10px;
-    border-bottom: solid grey 1px;
+    padding-left: 10%;
 }
 .nav-option {
-    background-color: lightblue;
     text-align: center;
     margin-right: 75px;    
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+    box-shadow: 1.5px 1.5px 0 0 rgba(0,0,0,0.1);
 }
 
 /*Main container*/
@@ -30,4 +29,3 @@ html {
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-
