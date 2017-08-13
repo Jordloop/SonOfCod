@@ -3,23 +3,31 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model SonOfCod.Models.Subscriber
+<link href="~/css/Admin/StyleSheet.css" rel="stylesheet" />
 
-<h2>Sign up!</h2>
+<div class="main">
+    <h2>Sign up!</h2>
 
 
-@using (Html.BeginForm())
-{
-    @Html.LabelFor(model => model.FirstName)
-    @Html.TextBoxFor(model => model.FirstName)
+    @using (Html.BeginForm())
+    {
+        <div class="form">
+            @Html.LabelFor(model => model.FirstName)
+            @Html.TextBoxFor(model => model.FirstName)
+        </div>
+        <div class="form">
 
-    @Html.LabelFor(model => model.LastName)
-    @Html.TextBoxFor(model => model.LastName)
-
-    @Html.LabelFor(model => model.CompanyName)
-    @Html.TextBoxFor(model => model.CompanyName)
-
-    @Html.LabelFor(model => model.Email)
-    @Html.TextBoxFor(model => model.Email)
-
-       <input type="submit" value="Subscribe!" />
-}
+            @Html.LabelFor(model => model.LastName)
+            @Html.TextBoxFor(model => model.LastName)
+        </div>
+        <div class="form">
+            @Html.LabelFor(model => model.CompanyName)
+            @Html.TextBoxFor(model => model.CompanyName)
+        </div>
+        <div class="form">
+            @Html.LabelFor(model => model.Email)
+            @Html.TextBoxFor(model => model.Email)
+        </div>
+            <input type="submit" value="Subscribe!" />
+            }
+</div>
