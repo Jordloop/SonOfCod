@@ -5,18 +5,24 @@
 @using SonOfCod.ViewModels.Admin
 
 @model LoginViewModel
+<link href="~/css/Admin/StyleSheet.css" rel="stylesheet" />
+<div class="main">
+    <h2>Log in with your account</h2>
 
-<h2>Log in with your account</h2>
-<hr />
-@using (Html.BeginForm())
-{
-    @Html.LabelFor(m => m.Email)
-    @Html.TextBoxFor(m => m.Email)
+    @using (Html.BeginForm())
+    {
+        <div class="form">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email)
+        </div>
+        <div class="form">
+            @Html.LabelFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password)
+        </div>
 
-    @Html.LabelFor(m => m.Password)
-    @Html.PasswordFor(m => m.Password)
+        <input type="submit" value="Log in" class="btn btn-default" />
+    }
 
-    <input type="submit" value="Log in" class="btn btn-default" />
-}
 
-<p>@Html.ActionLink("Register New Admin", "Register")</p>
+    <p>@Html.ActionLink("Register New Admin", "Register")</p>
+</div>

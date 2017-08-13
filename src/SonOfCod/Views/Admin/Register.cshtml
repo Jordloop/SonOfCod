@@ -6,19 +6,27 @@
 @using SonOfCod.ViewModels
 
 @model RegisterViewModel
+<link href="~/css/Admin/StyleSheet.css" rel="stylesheet" />
 
-<h2>Register a new user</h2>
-<hr />
-@using (Html.BeginForm("Register", "Admin", FormMethod.Post))
-{
-    @Html.LabelFor(m => m.Email)
-    @Html.TextBoxFor(m => m.Email)
+<div class="main">
+    <h2>Register a new admin</h2>
 
-    @Html.LabelFor(m => m.Password)
-    @Html.PasswordFor(m => m.Password)
+    @using (Html.BeginForm("Register", "Admin", FormMethod.Post))
+    {
+        <div class="form">
+        @Html.LabelFor(m => m.Email)
+        @Html.TextBoxFor(m => m.Email)
+    </div>
+        <div class="form">
 
-    @Html.LabelFor(m => m.ConfirmPassword)
-    @Html.PasswordFor(m => m.ConfirmPassword)
+        @Html.LabelFor(m => m.Password)
+        @Html.PasswordFor(m => m.Password)
+    </div>
+        <div class="form">
 
-    <input type="submit" value="Register" />
-}
+            @Html.LabelFor(m => m.ConfirmPassword)
+            @Html.PasswordFor(m => m.ConfirmPassword)
+        </div>
+        <input type="submit" value="Register" />
+    }
+</div>

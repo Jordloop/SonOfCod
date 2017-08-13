@@ -1,7 +1,6 @@
 ﻿body {
-   width: 100%;
-   background-repeat:no-repeat;
-   background-size: 100% 100%;
+    background-color: #eff1f4;
+    width: 100%;
 }
 html {
     width: 100%;
@@ -9,15 +8,21 @@ html {
  
 h1 {
     text-align: center;
-    margin: 0;
+    margin: 0
+}
+.title {
+    padding: 5%;
+    text-align: left;
+    font-size: 40pt;
+    color: white;
 }
 .image-div {
     margin: 0 auto;
-    width: 80%;
-    height: 450px;
+    width: 90%;
+    height: 475px;
     background-size: 100% 100%;
     background-image: url(https://static.pexels.com/photos/386020/pexels-photo-386020.jpeg);
-
+    border-radius: 10px;
 }
 
 .flex-container-main {
@@ -26,9 +31,11 @@ h1 {
     justify-content: space-around;
     width: 100%;
     padding: 10px;
+    box-shadow: 1.5px 1.5px 0 0 rgba(0,0,0,0.1);
 }
 
 .main-content {
+    background-color: white;
     margin: 80px;
     width: 30%;
     text-align: center;
@@ -38,6 +45,7 @@ h1 {
 }
    
 .flex-container-box {
+    margin-top: 8%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
