@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a mock web application themed after a seafood company. Functionality includes: The ability to sign  up for a newsletter. The ability to sign into the site as an administrator. As an administrator you will be able to view a list of all users who have subscribed to the newsletter.<br>
+This is a mock web application themed after a seafood company. Functionality includes: The ability to sign  up for a newsletter. The ability to sign into the site as an administrator. As an administrator you will be able to view a list of all users who have subscribed to the newsletter.<br><br>
 The project's design is roughly based after this site: https://www.pacseafood.com/
 
 ## Setup/Installation Requirements
@@ -35,6 +35,7 @@ If you have any issues or have questions, ideas, concerns, or contributions plea
 
 * C#
 * ASP.NET
+* MVC5
 * VS 2015
 * MSSQL
 * Razor
