@@ -1,3 +1,6 @@
+## About
+This is a solo project I did while attending Epicoudus' C#/.NET section. I had 8 hours to work on this project completely independently. Some of the technologies this project includes is user validation, SQL, MVC, and my first implementation of flexbox styling (see "Technologies Used" for more). 
+
 # SonOfCod
 
 #### **By Jordan Loop**
