@@ -1,5 +1,5 @@
 ## About
-This is a solo project I did while attending Epicoudus' C#/.NET section. I had 8 hours to work on this project completely independently. Some of the technologies this project includes is user validation, SQL, MVC, and my first implementation of flexbox styling (see "Technologies Used" for more). 
+This is a solo project I did while attending Epicoudus' C#/.NET section. I had 8 hours to work on this project completely independently. Some of the technologies this project includes is user validation, SQL, MVC, and my first implementation of flexbox styling (see "Technologies Used" for more). I have not updated the project (aside from About section of README.md) since I completed it as a testament to my level of understanding after programming for a couple months. 
 
 # SonOfCod
 
